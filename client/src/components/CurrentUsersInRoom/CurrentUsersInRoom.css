@@ -1,0 +1,14 @@
+.users-online {
+  color: white;
+  font-size: 20px;
+}
+
+.users-online__user {
+  list-style-image: url(../../images/onlineIcon.png);
+}
+
+@media (max-width:480px) {
+  .users-online {
+    display: none;
+  }
+}
